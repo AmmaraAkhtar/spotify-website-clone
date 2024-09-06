@@ -1,0 +1,427 @@
+*{
+    padding: 0%;
+    margin: 0%;
+    font-family: "Bree Serif", serif;
+    color: white;
+}
+
+#container{
+    display: flex;
+    height: 100%;
+    background-color: black;
+}
+#side-bar{
+    background-color:black;
+    display: flex;
+    flex-direction: column;
+    position: fixed;
+    width: 300px;
+    height: 100vh;
+    padding-top: 10px;
+ 
+}
+#main{
+    margin-left:270px;
+    background-color: 	black;
+    /* background-color: #03002e; */
+    flex: 1;
+    width: wv;
+
+}
+#footer{
+    background-color: rgb(12, 12, 12);
+    position: fixed;
+    display: flex;
+
+    bottom: 0%;
+    height: 50px;
+    width: 100vw;
+}
+
+#nav{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 70px;
+    position: sticky;
+    background-color:  #141414;
+    top: 0%;
+    border-radius: 15px;
+    z-index: 4;
+}
+#nav #nav-1 img{
+
+    width: 30px;
+    height: 40px;
+    border-radius: 50%;
+    cursor: pointer;
+
+}
+#nav #nav-1 img:hover{
+    color:#47474f;
+}
+#nav #nav-1 {
+ margin-left: 20px;
+}
+#nav #nav-2{
+    margin-left: 550px;
+    
+}
+#nav #nav-2 button{
+    width: 130px;
+    height: 35px;
+    border-radius: 30px;
+    color: black;
+cursor: pointer;
+}
+#nav #nav-2 button:hover{
+    background-color: black;
+    color: white;
+    border: 2px;
+    border-color: black;
+    border-style: solid;
+
+}
+#nav #nav-2 #button-2{
+background-color: black;
+color: white;
+border: 2px;
+border-color: black;
+border-style: solid;
+}
+#nav #nav-2 #button-2:hover{
+     background-color: white;
+    color: black;
+
+}
+#nav #nav-2 button i{
+    margin-right: 10px;
+}
+#nav #nav-2 button i:hover{
+    background-color: white;
+    color: black;
+}
+#nav #nav-2  i{
+    margin-left: 5px;
+}
+#account:hover{
+  color: #47474f;
+}
+#main-1{
+    border-radius: 50px;
+    margin:10px;
+
+    background-color: #141414;
+    margin-left: 30px;
+  /* border-color: aliceblue;
+ border: 4px;
+    border-style: solid; */
+}
+#card-1{
+    margin-top: 10px;
+}
+#card-1 h2{
+    margin-left: 48px;
+}
+#singer-image{
+    display: flex;
+    justify-content: space-evenly;
+    height: 300px;
+    align-items: center;
+}
+
+#singer-image1{
+    display: flex;
+    justify-content: space-evenly;
+    height: 300px;
+    align-items: center;
+    
+}
+#singer-image .item{
+    height: 250px;
+    width: 150px;
+    margin-left: 2px;
+}
+#singer-image1 .item{
+    height: 250px;
+    width: 150px;
+    margin-left: 2px;
+}
+#singer-image .item img{
+    height: 150px;
+    width: 150px;
+    z-index: 3;
+    cursor: pointer;
+}
+#singer-image1 .item img{
+    border-radius: 50%;
+    height: 150px;
+    cursor: pointer;
+    width: 150px;
+}
+#singer-image .item .card-title{
+    font-size: 1.1em;
+}
+#singer-image .item .card-text{
+    font-size: 1rem;
+    font-weight: 100;
+    opacity: 0.5;
+}
+#singer-image1 .item .card-text{
+    font-size: 1rem;
+    font-weight: 100;
+    opacity: 0.5;
+}
+#footer1{
+    display: flex;
+    
+    margin-top: 50px;
+}
+.row h4{
+font-weight: 500;
+}
+.row1 h4{
+    font-weight: 500;
+}
+.row1{
+margin-left: 80px;
+}
+.row{
+    margin-left: 35px;
+}
+.row p{
+    font-size: 1rem;
+    font-weight: 100;
+    color: rgb(121, 134, 134);
+    cursor: pointer;
+}
+.row p:hover{
+    text-decoration: underline;
+    color: white;
+    text-decoration-color: rgb(121, 134, 134);;
+}
+.row i{
+margin-right: 15px;
+cursor: pointer;
+}
+.row1 p{
+    font-size: 1rem;
+    font-weight: 100;
+    color: rgb(121, 134, 134);
+    cursor: pointer;
+}
+.row1 p:hover{
+    text-decoration: underline;
+    color: white;
+    text-decoration-color: rgb(121, 134, 134);;
+}
+.row1 i{
+margin-right: 15px;
+cursor: pointer;
+}
+#row1{
+    display: flex;
+}
+.row1 i:hover{
+    color: rgb(119, 126, 126);
+}
+#line{
+    height: 1px;
+    background-color: rgb(138, 135, 135);
+    width: 100%;
+    margin-top: 40px;
+}
+#After-line{
+    display: flex;
+    margin-top: 20px;
+}
+#After-line #div1{
+    display:flex;
+    justify-content: space-evenly;
+}
+#After-line #div1 a{
+    text-decoration: none;
+    color: rgb(111, 115, 118);
+    font-size: 1rem;
+    margin-left: 15px;
+}
+#After-line #div1 a:hover{
+    color: white;
+}
+#After-line #div2{
+    margin-left: 180px;
+    color: rgb(98, 102, 106);
+}
+#After-line #div2:hover{
+    color: white;
+}
+#logos{
+    height: 140px;
+    background-color: #141414;
+      margin-left: 5px;
+      margin-right: 5px;
+
+    border-radius: 15px;
+
+}
+#logos i{
+    font-size: 1.3rem;
+    margin-left: 20px;
+cursor: pointer;
+
+}
+#logos .logos-1 a{
+ text-decoration: none;
+ margin-left: 20px;
+ cursor: pointer;
+ font-family: "Montserrat", sans-serif;
+}
+#logos1{
+    margin-top: 20px;
+}
+#logos2{
+    margin-top: 20px;
+}
+#logos i:hover{
+    color: rgb(127, 132, 137);
+
+}
+#logos .logos-1 a:hover{
+    text-decoration: underline;
+    color: rgb(127, 132, 137);
+}
+#library{
+    height: 600px;
+    background-color: #141414;
+      margin: 5px;
+    border-radius: 15px;
+    position: relative;
+}
+#lib-part{
+    display: flex;
+    margin-top: 20px;
+
+}
+#lib-logo{
+    margin-left: 10px;
+}
+#lib-logo a{
+    text-decoration: none;
+    cursor: pointer;
+    margin-left: 15px;
+    
+    font-family: "Montserrat", sans-serif;}
+    #lib-logo i{
+        margin-left: 15px;
+        font-size: 1.3rem;
+        cursor: pointer;
+    
+    }
+#lib-create{
+    margin-left: 80px;
+}
+#lib-create i{
+    cursor: pointer;
+} 
+#arrow{
+    margin-left: 10px;
+    cursor: pointer;
+}
+.box1{
+    height: 140px;
+    background-color:#3c3a3a ;
+    border-radius: 15px;
+    margin: 5px;
+    font-family: "Montserrat", sans-serif;
+    margin-top: 20px;
+}
+.box1 h4{
+    font-family: "Montserrat", sans-serif;
+}
+.box11{
+    margin-left: 30px;
+    padding-top: 20px;
+}
+.box1 p{
+    font-family: "Montserrat", sans-serif;
+    margin-top: 7px;
+}
+.box1 button{
+    margin-top: 20px;
+    color: #141414;
+    border: #47474f;
+    width: 100px;
+    height: 32px;
+    border-radius: 15px;
+    cursor: pointer;
+}
+.box1 button:hover{
+    background-color: #141414;
+    color: white;
+}
+#box12{
+    height: 170px;
+}
+#box12 div button{
+    cursor: pointer;
+    width: 120px;
+}
+#box12 button:hover{
+    background-color: #141414;
+    color: white;
+}
+
+#play{
+margin-left: 540px;
+margin-top: 15px;
+}
+#play i{
+    font-size: 1.4rem;
+    color: rgb(97, 100, 103);
+    margin-left: 15px;
+cursor: pointer;
+}
+#play1{
+ font-size: 1.2rem;
+    opacity: 0.4;
+}
+#play5{
+    font-size: 1.2rem;
+    opacity: 0.4;
+}
+#play-2{
+    margin-left: 260px;
+    margin-top: 20px;
+    }
+ #play-2 i{
+        font-size: 1.1rem;
+        color: rgb(97, 100, 103);
+        margin-left: 5px;
+    cursor: pointer;
+    }
+
+    #footer div i:hover{
+        color: white;
+    }
+    .music{
+        border-radius: 50%;
+        background-color: rgb(85, 193, 32);
+        height:40px;
+        width: 40px;
+        position: relative;
+        bottom: 90px;
+        left: 110px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        cursor: pointer;
+        transition: opacity 0.3s;
+        
+    }
+    .music i{
+        font-size: 1.4rem;
+        color: black;
+    }
+   .hide{
+    display:none;
+   }
